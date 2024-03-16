@@ -1,0 +1,381 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Ggsans",sans-serif;
+}
+.nav-link {
+    list-style: none;
+    padding-left: 50px;
+}
+
+.nav-content {
+    display: inline-block;
+}
+
+.nav-content a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Ggsans', sans-serif;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.navbar {
+    height: 83px;
+    background-color: #404eed;
+}
+
+header {
+    max-width: 2000px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nav-content a:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    border: none;
+    background-color: white;
+    padding: 7px 16px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.navbar button:hover {
+    cursor: pointer;
+    color: #5865f2;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+}
+
+/* Content below nav bar */
+.about-discord {
+    height: 600px;
+    margin-top: -85px;
+    background: url("Images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* font-family: "Abcgintonord 800",sans-serif;
+    font-size: 56px;
+    font-weight: 700; */
+.primary-title {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    padding-top: 130px;
+}
+
+.secondary-title {
+    color: white;
+    text-align:center;
+    /* margin-top: -25px; */
+    margin-top: 0;
+    text-align: center;
+    font-size: 21px;
+    line-height: 31px;
+}
+.download-btn {
+    margin-left: 410px;
+    border: none;
+    background-color: white;
+    padding: 13px 37px;
+    border-radius: 30px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.openbrowser-btn{
+    margin-left: 25px;
+    color: white;
+    border: none;
+    background-color: #23272a;
+    padding: 13px 37px;
+    border-radius: 30px;
+    font-size: 20px;
+    line-height: 20px;
+
+}
+
+.download-btn:hover{
+    cursor: pointer;
+    color: #5865f2;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+}
+
+.openbrowser-btn:hover{
+    cursor: pointer;
+    background-color: #454241;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+}
+
+/* Second Section */
+.second-section{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+.grid-sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 16px;
+}
+.second-image{
+    height: 361px;
+    padding: 105px;
+    grid-area: 1/2/1/5;
+}
+
+.second-text-group{  
+padding-top: 128px;
+    grid-area: 1/8/2/12;
+}
+
+.second-section-title1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Ggsans",sans-serif;
+}
+.second-section-para{
+    font-family: inherit;
+    color: #707375;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* Third Section */
+.third-section-grey{
+    height: 600px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+.third-image{
+    padding-top: 128px;
+    grid-area: 1/6/2/12;
+}
+.third-section-texts{
+padding-top: 128px;
+grid-area: 1/2/2/5;
+
+}
+.third-section-title{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Ggsans",sans-serif;
+}
+.third-section-para{
+    font-family: inherit;
+    color: #707375;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* Fourth section */
+.fourth-section{
+    height: 600px;
+    width: 100%;
+    background-color: white;
+}
+.fourth-section-image{
+    grid-area: 1/2/1/5;
+}
+.fourth-image{
+    padding-top: 107px;
+    height: 390px;
+}
+.fourth-section-texts{
+    padding-top: 128px;
+    grid-area: 1/8/2/12;
+}
+.fourth-section-title{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Ggsans",sans-serif;
+}
+.fourth-section-para{
+    font-family: inherit;
+    /* color: #707375; */
+    color: black;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/* Fifth Grey section */
+.fifth-grey-section{
+    height: 1250px;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.fifth-section-texts{
+    padding-top: 80px;
+    margin-left: 200px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fifth-section-title{
+text-align: center; 
+   font-size: 40px;
+   font-family: inherit;
+}
+.fifth-section-para{
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+}
+.fifth-image{
+    padding-left: 230px;
+    height: 722px;
+}
+
+.download-section{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+column-gap: 20px;
+}
+
+.download-btn-down{
+    border: none;
+    background-color:#5865f2 ;
+    color: white;
+    padding: 13px 37px;
+    border-radius: 30px;
+    font-size: 20px;
+    line-height: 20px;
+}
+.download-section a{
+    padding-top: 10px;
+    color: white;
+}
+.download-btn-down:hover{
+    cursor: pointer;
+    background-color: #6972d5;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, .2);
+}
+.download-btn-image{
+    margin-top: 20px;
+    height: 83px;
+}
+.download-btn-text{
+    margin-top: -25px;
+}
+
+/* Footer layout */
+.footer-black{
+   padding-top: 80px;
+   padding-bottom: 64px;
+    width: 100%;
+    position: relative;
+    background-color: #23272a;
+}
+.footer-grid{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: start;
+    font-family: Ggsans,sans-serif;
+}
+.vertical-flag-flex{
+    grid-area: 1/2/1/2;
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+.language-dropdown{
+    display: flex;
+}
+.flag-image{
+    height: 12px;
+}
+.lang{
+    margin-top: 0px;
+    padding-left: 9px;
+    font-size: 12px;
+    color: white;
+}
+.social-media-icons{
+    display: flex;
+    column-gap: 12px;
+    ;
+}
+
+.social-media-icons i{
+    font-size: 20px;
+}
+
+.footer-1stcolumn{
+    grid-area: 1/4/1/4;
+}
+.footer-link{
+    color: #fff;
+    font-family: Ggsans,sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-column-titles{
+    margin-bottom: 24px;
+    color: #404eed;
+}
+
+/* Footer 2nd column */
+.footer-2ndcolumn{
+    grid-area: 1/5/1/5;
+}
+
+.footer-3rdcolumn{
+    grid-area: 1/6/1/6;
+
+}
+
+.footer-4thcolumn{
+    grid-area: 1/7/1/7;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
+
+.footer-line{
+    border: 1px solid #5865f2;
+    width: 1030px;
+    margin-left: 150px;
+}
+
+.footer-logo{
+    padding-left: 159px;
+}
+.footer-button{
+    padding-left: 809px;
+}
+.footer-signup-btn{
+    border: none;
+    background-color: #5865f2;
+    color: white;
+    padding: 7px 16px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+}
